@@ -7,6 +7,10 @@
 
 ol, ul {
     padding-left: 1.5em;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .hidden {
@@ -26,6 +30,8 @@ body {
 
 .main {
     flex: 1 0 auto;
+    padding: 3em 12em 0 12em ;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .header, .footer {
@@ -41,8 +47,13 @@ body {
 
 /* Title */
 
-.title, .logo {
+.title {
     padding: 3em 3em 3em 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.logo {
+    padding: 3em;
 }
 
 @media (max-width: 767px) {
@@ -54,6 +65,9 @@ body {
     }
     .logo {
         max-width: 30%;
+    }
+    .main{
+        padding: 5px;
     }
 }
 
@@ -71,6 +85,11 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    background-color: rgb(22, 21, 21);
+    overflow: hidden;
+    color: white;
+    padding: 10px 0 10px 20px;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .footer a {
@@ -86,8 +105,8 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #444;
-    background-color: beige;
+    color: black;
+    background-color: darkgray;
 }
 
 p, td, th, li, dd {
